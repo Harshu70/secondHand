@@ -21,6 +21,8 @@ try {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
+  console.log("connet to mongooooooooooooo");
+  
 } catch (error) {
   console.log("error: mongoose ", error);
 }
